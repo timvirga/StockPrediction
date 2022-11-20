@@ -38,4 +38,6 @@ def daily_return(df):
         df_daily_returns[i][0] = 0
     return df_daily_returns
 
-daily_return(stocks_df)
+stocks_daily_return = daily_return(stocks_df)
+
+stocks_daily_return.iloc[:,1:].max().idxmax()
