@@ -14,5 +14,6 @@
 # $ cd <Project A> # Enter to project directory
 # $ python -m venv my_venv # If not created, creating virtualenv
 # $ source ./my_venv/bin/activate # Activating virtualenv
+# upgrade pip in new environment (this command on windows) python -m pip install --upgrade pip
 # (my_venv)$ pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt # Installing dependencies from requirements.txt
 # (my_venv)$ deactivate # When you want to leave virtual environment
